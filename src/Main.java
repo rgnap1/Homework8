@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,10 +8,6 @@ public class Main {
         time[0]=1;
         time[1]=2;
         time[2]=3;
-        for (int i=0;i<time.length;i++){
-            System.out.println(time[i]);
-        }System.out.println(" ");
-
 
         //task2
         for (int i =0;i<time.length;i++){
@@ -49,10 +44,6 @@ public class Main {
         System.out.println("Homework8 //task1.2 //task2 //task3 ");
         //task1.2
         float [] apple = {1.57f, 7.654f, 9.986f};
-        System.out.println(Arrays.toString(apple));
-        System.out.println(apple.length);
-        System.out.println(" ");
-
 
         //task2
         for (int i =0;i<apple.length;i++){
@@ -81,11 +72,6 @@ public class Main {
         cats[1]=2;
         cats[2]=3;
         cats[3]=4;
-        System.out.println(" ");
-        for (int i=0;i<cats.length;i++){
-            System.out.println(cats[i]);
-        }System.out.println(" ");
-
 
         //task2
         for (int i=0;i<cats.length;i++){
