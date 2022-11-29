@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,12 +33,12 @@ public class Main {
 
         //task4
         for (int i =0;i<time.length;i++){
-            if(i%2!=0){
-                System.out.println(time[i]);
-            }else {
-                System.out.println(time[i]+1);
+            if(time[i]%2!=0){
+                time[i]+=1;
             }
-        }System.out.println(" ");
+        }
+        System.out.println(Arrays.toString(time));
+        System.out.println(" ");
 
 
 
